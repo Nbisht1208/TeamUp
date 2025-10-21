@@ -8,6 +8,7 @@ import { Routes ,Route} from 'react-router-dom'
 import Home from './Home'
 import LoginPage from './Pages/LoginPage'
 import { Toaster } from 'react-hot-toast'
+import ProfilePage from './Pages/ProfilePage'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/register" element={<SignupPage/>} />
+        <Route path="/profile" element={<ProfilePage/>} />
       </Routes>
     </>
   )
